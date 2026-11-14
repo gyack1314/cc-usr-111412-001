@@ -1,0 +1,35 @@
+{
+  "orders": [
+    {
+      "order_id": "o1",
+      "account": "a",
+      "cohort": "2026-01",
+      "price": 20,
+      "paid_at": 1,
+      "grant_tokens": 1000,
+      "refund": 0
+    }
+  ],
+  "calls": [
+    {
+      "call_id": "c1",
+      "account": "a",
+      "model": "m1",
+      "service": "assistant",
+      "time": 2,
+      "input_tokens": 300,
+      "output_tokens": 100,
+      "revision": 1
+    }
+  ],
+  "costs": [
+    {
+      "model": "m1",
+      "unit": "token",
+      "from": 1,
+      "to": 10,
+      "low": 0.0001,
+      "high": 0.00012
+    }
+  ]
+}
